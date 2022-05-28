@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 class="heading">Weather Report</h1>
+    <div class="mainbox">
+        <div class="searchbox">
+            <input type="text" class="searchc" id="searchi" placeholder="Search">
+            <button class="btnc" id="btn">Search</button>
+        </div>
+        <div class="content ">
+            <div class="left-box">
+                <div  >
+                    <h2 class="cityc" id="city">welcome to delhi</h2>
+                </div>
+                <div class="datec">
+                    <p id="datei">23|4</p>
+                </div>
+                <div class="dayc">
+                    <p id="dayi">friday </p>
+                </div>
+            </div>
+            
+            <div class="right-box temper  ">
+                <div class="main-tempu">
+                    <h3>tempurature</h3>
+                    <p class="tempu" id="tempi">36<span>&#8451;</span></p>
+                </div>
+                
+                <!-- <div class="minitemp">
+                    <h3>temp Minimum</h3>
+                    <p id="tempmin">30 <span>&#8451;</span></p>
+                    <h3>temp Maximum</h3>
+                    <p id="tempmax">30 <span>&#8451;</span></p>
+                </div> -->
+                <!-- <div class="iconc">
+                    <ion-icon id="iconi" name="cloudy-outline"></ion-icon>
+                </div> -->
+                <div class="iconc">
+                    
+                       
+                        <img id="iconi" src="http://openweathermap.org/img/wn/10d@2x.png" alt="pngs" srcset="">
+
+                        <h3 id="decrip">clouds</h3>
+
+                   
+                    
+                </div>
+               
+            </div>
+            
+        </div>
+
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
